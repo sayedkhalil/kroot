@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+}
+.cont {
+  margin: auto;
+  width: 100%;
+  position: relative;
+  border: 0px solid #a2d9f7;
+}
+.ww {
+  color: white;
+}
+
+.icon {
+  width: 30%;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.icon img {
+  width: 100%;
+  border-radius: 100%;
+  border: 2px solid #a2d9f7;
+}
+h1 {
+  font-family: "Tajawal", sans-serif;
+  font-size: larger;
+  text-align: center;
+  color: #105e92;
+  margin: 15px 5px 5px 5px;
+}
+h4 {
+  font-family: "Tajawal", sans-serif;
+  text-align: center;
+  color: #0e6aa9;
+}
+.contact {
+  width: 100%;
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.ffa {
+  background-color: #a2d9f7;
+  padding: 10px;
+  text-align: center;
+}
+.ph {
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  padding: 3px;
+  color: rgb(63, 63, 63);
+  border-radius: 15px;
+  box-shadow: 1px 1px 6px rgb(148, 146, 146);
+  font-family: "Tajawal", sans-serif;
+  width: 100%;
+  font-size: medium;
+}
+.gg {
+  background: rgb(95, 230, 95);
+  color: white;
+  border-radius: 100%;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+.row:first-child .ffa {
+  border-radius: 0px 25px 0px 0px;
+}
+.row:last-child .ffa {
+  border-radius: 0px 0px 25px 0px;
+}
+.loca {
+  width: 90%;
+  margin: 30px auto 10px;
+  display: flex;
+}
+.fa-map-marker {
+  text-align: center;
+  flex-grow: 1;
+  padding: 5px;
+}
+.loca h2 {
+  text-align: center;
+  font-size: medium;
+  color: rgb(36, 36, 36);
+  font-family: "Tajawal", sans-serif;
+  flex-grow: 3;
+  padding: 10px;
+}
+.fa-location-arrow {
+  color: rgb(95, 230, 95);
+}
+.logo {
+  width: 10%;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+@media only screen and (min-width: 992px) {
+  .cont {
+    width: 50%;
+    margin: auto;
+    border: 1px solid #a2d9f7;
+  }
+}
